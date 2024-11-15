@@ -24,13 +24,14 @@ const teamMembers = [
       role: "Project Manager",
       skills: ["Agile", "Scrum", "Leadership"],
     },
-
-    id: 5,
-    name: "Kay Mcray",
-    role: "Softwar Engineer",
-    skills: ["Agile", "Scrum", "Github"],
-  },
-  ];
+    
+    {  
+        id: 5,
+        name: "Kay Mcray",
+        role: "Softwar Engineer",
+        skills: ["Agile", "Scrum", "Github"],
+    },
+    ];
   
 
   export { teamMembers, products };
