@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Project Data</title>
+</head>
+<body>
+  <h1>Byte Sized Ninjas</h1>
+
+  <h2>Team Members</h2>
+  <ul id="team-members"></ul>
+
+
+  <script type="module">
+    import { teamMembers, products } from './data.js';
+
+    const teamList = document.getElementById('team-members');
+    teamMembers.forEach(member => {
+      const listItem = document.createElement('li');
+      listItem.textContent = `${member.name} - ${member.role}`;
+      teamList.appendChild(listItem);
+    });
+
+  </script>
+</body>
+</html>
