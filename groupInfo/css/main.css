@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(202, 195, 187);
+}
+/*CODE WARS CSS !!!!!!!!!!!!!!!!!!!!!!!*/
+#codeWars a {
+    
+    color: black;
+    text-decoration: none;
+    /* background-color: rgb(231, 235, 217); */
+}
+ #codeWars a:hover {
+    color: blue;
+ }
+ #codeWars {
+    text-align: center;
+    background-color: rgb(190, 149, 156);
+    width: 35%;
+    /* padding: 100px; */
+    
+    
+ }
+ .code {
+    text-align: center;
+ }
+
+ /* GITHUB CSS !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ #gitHub a {
+  color: blue;
+  text-decoration: none;
+ }
+
+ #gitHub a:hover {
+    color: rgb(253, 251, 251);
+ }
+ #gitHub {
+     background-color: rgb(7, 7, 7);
+     width: 35%;
+     text-align: center;
+    }
+
+    /*LINKEDIN CSS !!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    #link a {
+        color: burlywood;
+        text-decoration: none;
+    }
+    #link a:hover {
+     color: black;   
+    }
+    #link {
+        background-color: brown;
+        width: 35%;
+        text-align: center;
+        
+    }
